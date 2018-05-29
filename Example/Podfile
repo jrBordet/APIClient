@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'APIClient_Example' do
+  pod 'APIClient', :path => '../'
+
+  pod 'OHHTTPStubs/Swift' 	# https://github.com/AliSoftware/OHHTTPStubs
+				                    # includes the Default subspec, with support for NSURLSession & JSON, and the Swiftier API wrappers
+  target 'APIClient_Tests' do
+    inherit! :search_paths
+    
+    # Pods for APIClientTutorial
+  end
+end
