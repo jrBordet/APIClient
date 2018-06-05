@@ -14,7 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Installation
 
 APIClient is available through [JRFramework](https://github.com/jrBordet/JRFramework.podspec.git). To install
-it, simply add the following line to your Podfile:
+it simply add the following lines to your Podfile:
 
 ```ruby
 source "https://github.com/jrBordet/JRFramework.podspec.git"
