@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-APIClient is available through [RFramework](https://github.com/jrBordet/JRFramework.podspec.git). To install
+APIClient is available through [JRFramework](https://github.com/jrBordet/JRFramework.podspec.git). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
